@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9b121b8f-10df-4747-941a-e8c9e260173a
+  bundle: session
+  default_langcode: en
+  depends:
+    1d1b7881-6f3a-4a8c-882f-78034a5e484d: user
+    51b483bf-179f-42d6-ae87-e6832a10f2a8: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    85585141-4bc0-4c0b-a08c-e90e5d02dd26: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 1d1b7881-6f3a-4a8c-882f-78034a5e484d
+  title:
+    -
+      value: 'Rapid Prototyping with Vercel’s v0.dev'
+  created:
+    -
+      value: 1747800861
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/rapid-prototyping-vercels-v0dev
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 51b483bf-179f-42d6-ae87-e6832a10f2a8
+  field_description:
+    -
+      value: '<p>In today’s fast-paced development environment, swiftly transforming ideas into functional prototypes is crucial. Vercel’s v0, an AI-powered generative UI tool, enables developers to create user interfaces from simple text prompts, producing React components styled with Tailwind CSS and shadcn UI.&nbsp;</p><p>This session will cover:</p><ul><li><strong>Introduction to Vercel’s v0:</strong> Understanding its capabilities and how it integrates with modern web technologies.</li><li><strong>Live Demonstration:</strong> Building a UI component from a text prompt, showcasing the tool’s efficiency in rapid prototyping.</li><li><strong>Best Practices:</strong> Tips for effectively utilizing v0 in development workflows, including prompt engineering and integrating generated components into existing projects.</li><li><strong>Case Studies:</strong> Examples of successful applications built using v0, highlighting its impact on development speed and collaboration.</li></ul><p>Attendees will gain hands-on knowledge of leveraging AI in UI development, enabling them to accelerate their prototyping processes and enhance collaboration between design and development teams.</p>'
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 85585141-4bc0-4c0b-a08c-e90e5d02dd26
+  field_short_description:
+    -
+      value: 'In today’s fast-paced development environment, swiftly transforming ideas into functional prototypes is crucial. Vercel’s v0, an AI-powered generative UI tool, enables developers to create user interfaces from simple text prompts, producing React components styled with Tailwind CSS and shadcn UI. '
+  field_speakers:
+    -
+      entity: 1d1b7881-6f3a-4a8c-882f-78034a5e484d

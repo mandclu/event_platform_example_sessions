@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 902f7836-22fe-4b83-b58b-84a26795e689
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: h4Ck3R
+  pass:
+    -
+      value: $2y$10$oqNkDvOznrdoIxglRzXKZOCW8kdMULbIP8whdV9dfV04Q8CxrmJfi
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: h4Ck3R@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747774392
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: h4Ck3R@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: h4Ck3R

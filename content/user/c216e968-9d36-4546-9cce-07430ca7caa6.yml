@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c216e968-9d36-4546-9cce-07430ca7caa6
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: thewalrus
+  pass:
+    -
+      value: $2y$10$yGgGN4nlOgUYkFwmNaRgT.YHPwQpu93cC.BekvLukShYELaMFhAyq
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: thewalrus@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747774281
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: thewalrus@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: thewalrus

@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 14a3485e-13da-4ca1-ae73-4acb604967bf
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: n00b
+  pass:
+    -
+      value: $2y$10$aa2jxN//Jtak7q5s0rApIeUCNzhykBLmqvDrEjVqi8UDiwLy4t2pO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: n00b@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747741486
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: n00b@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: n00b

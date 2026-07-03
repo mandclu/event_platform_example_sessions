@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6fa44268-a27a-4890-89e3-808a9579c12d
+  bundle: session
+  default_langcode: en
+  depends:
+    75639971-a098-4974-841f-d875b605a83a: user
+    51b483bf-179f-42d6-ae87-e6832a10f2a8: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    f1254d3d-137f-4f77-87f4-19173484ea47: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75639971-a098-4974-841f-d875b605a83a
+  title:
+    -
+      value: "When There's Not a Module for That: How to Make (and Maintain) a New Module"
+  created:
+    -
+      value: 1747821263
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/when-theres-not-module-how-make-and-maintain-new-module
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 51b483bf-179f-42d6-ae87-e6832a10f2a8
+  field_description:
+    -
+      value: "<p>You've built sites with Drupal and know that with a few dozen modules (and a ton of configuring), you can do nearly everything in modern Drupal. &nbsp;\"There's a module for that\" is one the sweetest sounds you can hear.</p><p>But what do you do when there's not a module for that? &nbsp;When the modules that exist don't meet your needs, and cannot be made to by contributing changes?</p><p>You make your own.</p><p>This session will help you take that step. &nbsp;All you need to do is write two text files. The first file tells Drupal about the module; it’s not code. The second file can have as little as three lines of code in it. &nbsp;Making a module is something that anyone can do. There are many (mostly simple) rules to follow and tons of tools to use— and lots of exploration to do. Every person developing a module is still learning.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: f1254d3d-137f-4f77-87f4-19173484ea47
+  field_short_description:
+    -
+      value: "You've built sites with Drupal and know that with a few dozen modules (and a ton of configuring), you can do nearly everything in modern Drupal. \"There's a module for that\" is one the sweetest sounds you can hear. But what do you do when there's not a module for that? When the modules that exist don't meet your needs, and cannot be made to by contributing changes? You make your own."
+  field_speakers:
+    -
+      entity: 75639971-a098-4974-841f-d875b605a83a

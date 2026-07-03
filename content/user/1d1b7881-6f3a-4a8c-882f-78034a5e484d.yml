@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 1d1b7881-6f3a-4a8c-882f-78034a5e484d
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: johnpicozzi
+  pass:
+    -
+      value: $2y$10$JRQz.LiP4VKY6Ocky4X.subuAEsiWFIW7MTlZ/fuGO1NjAXM8L5f2
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: johnpicozzi@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747740995
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: johnpicozzi@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: johnpicozzi

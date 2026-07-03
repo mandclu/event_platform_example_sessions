@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4d27bb90-8bb5-43ec-9eb6-97a2de958b9f
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ultimike
+  pass:
+    -
+      value: $2y$10$vIXmW13nL10S.5FSW.wASOY5eTrREY7K7LE76JaAGnEDO1Ovucus2
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: ultimike@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747741139
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: ultimike@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: ultimike

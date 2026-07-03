@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 513e1a0b-7f8e-4e78-8fd2-49c2564c3a3a
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: mherchel
+  pass:
+    -
+      value: $2y$10$VRVKvu9WMjjv2pzT3U0lPurPLXlanWinDJwTaWK5rvRFJ4l9PdYAy
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mherchel@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747741398
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: mherchel@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: mherchel

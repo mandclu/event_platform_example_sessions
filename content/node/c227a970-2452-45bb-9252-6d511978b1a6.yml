@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c227a970-2452-45bb-9252-6d511978b1a6
+  bundle: session
+  default_langcode: en
+  depends:
+    4d27bb90-8bb5-43ec-9eb6-97a2de958b9f: user
+    51b483bf-179f-42d6-ae87-e6832a10f2a8: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    92438944-849c-45c6-86aa-0a5dbf4a1323: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4d27bb90-8bb5-43ec-9eb6-97a2de958b9f
+  title:
+    -
+      value: "Weekend at Drupal 7's: Still Partying Past EOL"
+  created:
+    -
+      value: 1747799210
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/weekend-drupal-7s-still-partying-past-eol
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 51b483bf-179f-42d6-ae87-e6832a10f2a8
+  field_description:
+    -
+      value: "<p><strong>Picture this: </strong>It's February 2025, and while Drupal 7 was supposed to be having its final farewell tour, it's somehow still crowd-surfing through thousands of websites. Like the tech world's most persistent party guest, it just won't take \"time to go home\" for an answer, and honestly, that might be a good thing.</p><p>Welcome to the real world of post-EOL Drupal 7, where thousands of sites are doing the digital equivalent of running with scissors. But before you panic-migrate your way into next Tuesday, let's talk about how to turn this potential disaster into your next success story.</p><p><strong>In this session, we'll cover:</strong></p><ul><li>Why your Drupal 7 site is like that one friend who's still using a Hotmail address (functional but concerning)</li><li>How to transform your \"technical debt\" into \"technical dividends\" (yes, we're making that a thing)</li><li>The art of keeping your site secure when official support has left the building</li><li>Why HeroDevs is basically your site's designated driver through the afterparty</li></ul><p>Perfect for: digital strategists putting off difficult conversations, developers tired of explaining why \"just migrate it\" isn't always the answer, managers wondering why their weekend plans keep involving security patches, and anyone who's ever had to make legacy software work well past its expiration date.</p><p>Leave knowing not just why your Drupal 7 site can survive, but how to make it thrive. Because sometimes the best parties happen after the lights are supposed to go out.</p><p>Warning: This talk may contain excessive metaphors, actual solutions, and at least one reference to how supporting Drupal 7 is like keeping a Tamagotchi alive in 2025—surprisingly possible and weirdly satisfying.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 92438944-849c-45c6-86aa-0a5dbf4a1323
+  field_short_description:
+    -
+      value: "Picture this: It's February 2025, and while Drupal 7 was supposed to be having its final farewell tour, it's somehow still crowd-surfing through thousands of websites. Like the tech world's most persistent party guest, it just won't take \"time to go home\" for an answer, and honestly, that might be a good thing."
+  field_speakers:
+    -
+      entity: 4d27bb90-8bb5-43ec-9eb6-97a2de958b9f

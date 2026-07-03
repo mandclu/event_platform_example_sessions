@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 735282d2-30fc-419f-867b-c6b65a95b9a5
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: mandclu
+  pass:
+    -
+      value: $2y$10$67rHu0fx9YH2/mBhsVfXheGI5AebpMKop8cj.8Y/7O7wRGP2te10K
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mandclu+speaker@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747740802
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: mandclu+speaker@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: mandclu

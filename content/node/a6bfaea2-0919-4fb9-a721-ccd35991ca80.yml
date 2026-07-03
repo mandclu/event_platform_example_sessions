@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6bfaea2-0919-4fb9-a721-ccd35991ca80
+  bundle: session
+  default_langcode: en
+  depends:
+    902f7836-22fe-4b83-b58b-84a26795e689: user
+    094e6ae5-7baf-4113-bad9-fbdeed88ee13: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    f1254d3d-137f-4f77-87f4-19173484ea47: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 902f7836-22fe-4b83-b58b-84a26795e689
+  title:
+    -
+      value: 'Queue, our esteemed utility'
+  created:
+    -
+      value: 1747821622
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/queue-our-esteemed-utility
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 094e6ae5-7baf-4113-bad9-fbdeed88ee13
+  field_description:
+    -
+      value: "<p>There's usually at least three different ways to do a thing in software development.</p><p>When it comes to importing content, making batches of updates, and other operations, Drupal's core queue operations take a backseat to migrations, feeds, and manual content entry, among other solutions. Once you get the hang of queues, though, you may tell migration YAMLs to get lost!</p><p>We'll look at what the heck Drupal is doing back there, some of the wild things you can pull off with a queue worker, some times when it's not the right tool for the job, and walk away with some easy-to-adapt sample code for your next project.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: f1254d3d-137f-4f77-87f4-19173484ea47
+  field_short_description:
+    -
+      value: "There's usually at least three different ways to do a thing in software development. When it comes to importing content, making batches of updates, and other operations, Drupal's core queue operations take a backseat to migrations, feeds, and manual content entry, among other solutions. Once you get the hang of queues, though, you may tell migration YAMLs to get lost!"
+  field_speakers:
+    -
+      entity: 902f7836-22fe-4b83-b58b-84a26795e689

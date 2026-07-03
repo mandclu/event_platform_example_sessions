@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8106c89a-3515-41e7-beb2-cc85b616b671
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: benjifisher
+  pass:
+    -
+      value: $2y$10$pU8n7jQ/L3Xh8RkjsFumMuMAOJkCmdIAoYJwNGl98/U2LzI39SxR6
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: benjifisher@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747774071
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: benjifisher@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: benjifisher

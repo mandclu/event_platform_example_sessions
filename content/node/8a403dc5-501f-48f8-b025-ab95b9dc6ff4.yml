@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8a403dc5-501f-48f8-b025-ab95b9dc6ff4
+  bundle: session
+  default_langcode: en
+  depends:
+    e85a6af4-4c06-4723-99d7-7a73d421f570: user
+    5a5b097b-45ac-48df-b267-ccb7fba048ce: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    fec1cd54-6d8b-44a9-9dc0-5da251f5a1eb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e85a6af4-4c06-4723-99d7-7a73d421f570
+  title:
+    -
+      value: 'My NeuroDivergent Brain: Insights and Strategies for Inclusive Design'
+  created:
+    -
+      value: 1747800215
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/my-neurodivergent-brain-insights-and-strategies-inclusive-design
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 5a5b097b-45ac-48df-b267-ccb7fba048ce
+  field_description:
+    -
+      value: '<p>Neurodiversity encompasses a range of differences in thinking, learning, and interacting with the world. This presentation will explore the lived experience of being neurodivergent and its implications for community engagement, universal design, and workplace inclusion. Drawing on personal stories and evidence-based insights, the session highlights practical strategies to foster environments where neurodiverse individuals can thrive. Attendees will leave with actionable tools to better understand neurodivergent perspectives and implement thoughtful accommodations, benefiting all.</p><p><strong>Learning Objectives:</strong></p><ol><li>Define neurodiversity and understand its importance in fostering inclusive environments.</li><li>Identify common challenges faced by neurodivergent individuals in personal and professional settings.</li><li>Implement universal design principles to create accessible and welcoming spaces for neurodiverse people.</li></ol><p><strong>Target Audience:</strong></p><ul><li>Community organizers</li><li>Educators and trainers</li><li>Workplace leaders and HR professionals</li><li>Developers and UX designers interested in accessibility</li></ul><p><strong>Key Highlights from the Session:</strong></p><ol><li><strong>Personal Narratives:</strong> Sharing impactful moments from the speaker’s journey as a neurodivergent individual.</li><li><strong>Understanding Neurodivergence:</strong> Exploring conditions such as autism, ADHD, and dyslexia through real-life examples.</li><li><strong>Universal Design in Practice:</strong> Practical advice, such as leveraging low-light environments or strategies to address time blindness and sensory sensitivities.</li><li><strong>Call to Action:</strong> Encouraging empathy, patience, and kindness in professional and community spaces.</li></ol>'
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: fec1cd54-6d8b-44a9-9dc0-5da251f5a1eb
+  field_short_description:
+    -
+      value: 'Neurodiversity encompasses a range of differences in thinking, learning, and interacting with the world. This presentation will explore the lived experience of being neurodivergent and its implications for community engagement, universal design, and workplace inclusion.'
+  field_speakers:
+    -
+      entity: e85a6af4-4c06-4723-99d7-7a73d421f570

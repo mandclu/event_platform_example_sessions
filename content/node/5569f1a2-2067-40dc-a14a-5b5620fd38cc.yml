@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5569f1a2-2067-40dc-a14a-5b5620fd38cc
+  bundle: session
+  default_langcode: en
+  depends:
+    1d1b7881-6f3a-4a8c-882f-78034a5e484d: user
+    50eab120-91e8-4266-8698-da478b1d440b: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    f1254d3d-137f-4f77-87f4-19173484ea47: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 1d1b7881-6f3a-4a8c-882f-78034a5e484d
+  title:
+    -
+      value: 'Grokking Git'
+  created:
+    -
+      value: 1747776331
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/grokking-git
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 50eab120-91e8-4266-8698-da478b1d440b
+  field_description:
+    -
+      value: '<p>Git can be confusing, but it gets easier once you understand a little bit about how and <em>why</em> Git works the way it does. We will explore the how and why of Git through metaphor and storytelling. No jargon, no assumptions. We may even have some fun.</p>'
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: f1254d3d-137f-4f77-87f4-19173484ea47
+  field_short_description:
+    -
+      value: 'Git can be confusing, but it gets easier once you understand a little bit about how and why Git works the way it does. We will explore the how and why of Git through metaphor and storytelling. No jargon, no assumptions. We may even have some fun.'
+  field_speakers:
+    -
+      entity: 1d1b7881-6f3a-4a8c-882f-78034a5e484d

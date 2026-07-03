@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85332ff4-a927-40ad-9ab3-42a6b5703f04
+  bundle: session
+  default_langcode: en
+  depends:
+    168b450e-d820-4d80-b3a7-f5ffc7afb7f0: user
+    5a5b097b-45ac-48df-b267-ccb7fba048ce: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    fec1cd54-6d8b-44a9-9dc0-5da251f5a1eb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 168b450e-d820-4d80-b3a7-f5ffc7afb7f0
+  title:
+    -
+      value: 'Stepping Outside the Box: Autism and Diversity in the Workplace'
+  created:
+    -
+      value: 1747798958
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/stepping-outside-box-autism-and-diversity-workplace
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 5a5b097b-45ac-48df-b267-ccb7fba048ce
+  field_description:
+    -
+      value: "<p>Did you know that around 1 in 68 people are diagnosed with an autism spectrum disorder? People with autism and Asperger's are becoming a growing part of civilization, and a growing part of the tech workforce, yet in spite of their high intelligence and remarkable creativity and passion, they often go unemployed and underemployed within our society.</p><p>This presentation will attempt to debunk myths around autism and present autistic strengths and challenges, while also sharing why we believe it is important for Drupal firms and other employers to start considering accommodating potential employees with autism spectrum disorders.</p><p>The presentation will cover the following topics/issues:</p><ol><li>Debunking the Myths surrounding the Autism diagnosis, which would include providing information about this diagnosis and how it might present in the workplace or in general, which would include providing statistics as to the percentage of autistic individuals who are in the tech field and what tech employers, including Microsoft, are offering them.</li><li>Covering the challenges and strengths of an individual on the spectrum and how his or her participation in the tech workforce could be a very good fit for this individual and the tech employer.</li><li>How does the Americans with Disabilities Act (ADA) impact the tech employer when it is considering employing an individual who is on the Autism Spectrum.</li></ol><p>What are some examples of reasonable accommodations that an employer should legally offer an employee or potential employee with autism under the ADA?</p><p>What are potential modifications to the workplace that the individual with autism wants an employer to offer even if the employer is not legally required to do so under the ADA.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: fec1cd54-6d8b-44a9-9dc0-5da251f5a1eb
+  field_short_description:
+    -
+      value: "Did you know that around 1 in 68 people are diagnosed with an autism spectrum disorder? People with autism and Asperger's are becoming a growing part of civilization, and a growing part of the tech workforce, yet in spite of their high intelligence and remarkable creativity and passion, they often go unemployed and underemployed within our society."
+  field_speakers:
+    -
+      entity: 168b450e-d820-4d80-b3a7-f5ffc7afb7f0

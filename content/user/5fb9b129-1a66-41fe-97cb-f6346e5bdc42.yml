@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 5fb9b129-1a66-41fe-97cb-f6346e5bdc42
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: w01f
+  pass:
+    -
+      value: $2y$10$SAZtJCXTlkHT5asM92YbsebJsWKLM1Hayy.HIaoQ4ddWvAbfdL4Le
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: w01f@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747741335
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: w01f@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: w01f

@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  bundle: event
+  default_langcode: und
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '2025'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  moderation_state:
+    -
+      value: sessions_open
+  path:
+    -
+      alias: /events/2025
+      langcode: und
+      pathauto: 1
+  field_dates:
+    -
+      value: '2025-08-14'
+      end_value: '2025-08-16'
+  field_location_short:
+    -
+      value: 'London, Ontario, Canada'
+  field_schedule_published:
+    -
+      value: '2025-06-30'
+  field_session_deadline:
+    -
+      value: '2025-06-09'
+  field_sessions_open:
+    -
+      value: '2025-05-12'

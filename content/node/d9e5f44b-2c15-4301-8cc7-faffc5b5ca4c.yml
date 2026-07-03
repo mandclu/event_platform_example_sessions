@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d9e5f44b-2c15-4301-8cc7-faffc5b5ca4c
+  bundle: session
+  default_langcode: en
+  depends:
+    735282d2-30fc-419f-867b-c6b65a95b9a5: user
+    5a5b097b-45ac-48df-b267-ccb7fba048ce: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    f1254d3d-137f-4f77-87f4-19173484ea47: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 735282d2-30fc-419f-867b-c6b65a95b9a5
+  title:
+    -
+      value: 'Drupal Does That?!: Hidden Gems of Drupal Contrib'
+  created:
+    -
+      value: 1747775773
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/drupal-does-hidden-gems-drupal-contrib
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 5a5b097b-45ac-48df-b267-ccb7fba048ce
+  field_description:
+    -
+      value: '<p>Ever wanted a Drupal module to delight or impress you in ways you hadn’t expected? There’s a module-expert for that: It’s <strong>Martin Anderson-Clutz</strong>, co-host of the <a href="https://talkingdrupal.com/">Talking Drupal podcast</a>.</p><p>This talk will highlight a range of modules that will have your sites performing in new, clever, efficient and/or delightful ways.</p><p>There''s something for you if you’re a developer, site builder, Drupal enthusiast, a content editor, a web developer looking to expand your skill set and uncover Drupal''s possibilities, or want to meet other similarly intrigued people.</p>'
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: f1254d3d-137f-4f77-87f4-19173484ea47
+  field_short_description:
+    -
+      value: 'Ever wanted a Drupal module to delight or impress you in ways you hadn’t expected? There’s a module-expert for that: It’s Martin Anderson-Clutz, co-host of the Talking Drupal podcast.'
+  field_speakers:
+    -
+      entity: 735282d2-30fc-419f-867b-c6b65a95b9a5

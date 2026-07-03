@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 340e3a60-df6a-47ac-a371-65439a1c8717
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: mr_nobody
+  pass:
+    -
+      value: $2y$10$TyK4H9bJr3amzsPLf2IoPeqX/f4lUF8UKK.rZVf7S4jhYl14umECm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mr_nobody@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747774212
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: mr_nobody@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: mr_nobody

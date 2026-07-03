@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 66734556-57d9-40e8-a205-79533f373488
+  bundle: session
+  default_langcode: en
+  depends:
+    e85a6af4-4c06-4723-99d7-7a73d421f570: user
+    50eab120-91e8-4266-8698-da478b1d440b: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    426ad117-d738-4e08-9150-7ba99fc38f66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e85a6af4-4c06-4723-99d7-7a73d421f570
+  title:
+    -
+      value: 'Off On the Right Foot with Drupal'
+  created:
+    -
+      value: 1747776249
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/right-foot-drupal
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 50eab120-91e8-4266-8698-da478b1d440b
+  field_description:
+    -
+      value: "<p>Often when embarking on a new technology project, your first attempt feels good when you deliver it, but you look at it later and think, that could have been done better. Sometimes, that means it ends up being rebuilt from scratch.</p><p>It helps to know what resources you can pull together to get started--to get off on the right foot. This session is perfect for those who have been through a Drupal In-One-Day training or other beginner trainings and are looking to <em>begin</em> their journey to a production deployed Drupal website.</p><p>Whether spinning up your first or wanting to do it better next, this session should help you lay the ground work for a more successful Drupal project launch in your near future.&nbsp;<br><br>We'll go over&nbsp;</p><ul><li>project initiation concerns, </li><li>local and remote development environment options,</li><li>available production hosting resources, </li><li>content structure theory, and </li><li>theme selection considerations.</li></ul><p>We'll also introduce resources for non-developers who want to realize their project without custom theming and development. My hope is, you launch a nice looking, functional, and productive CMS to production when you apply the opinions and follow the steps laid out in this session.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 426ad117-d738-4e08-9150-7ba99fc38f66
+  field_short_description:
+    -
+      value: 'Often when embarking on a new technology project, your first attempt feels good when you deliver it, but you look at it later and think, that could have been done better. Sometimes, that means it ends up being rebuilt from scratch. Whether spinning up your first or wanting to do it better next, this session should help you lay the ground work for a more successful Drupal project launch in your near future.'
+  field_speakers:
+    -
+      entity: e85a6af4-4c06-4723-99d7-7a73d421f570

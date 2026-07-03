@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2abdc430-25a0-4741-a59d-26f79b7486d5
+  bundle: session
+  default_langcode: en
+  depends:
+    735282d2-30fc-419f-867b-c6b65a95b9a5: user
+    51b483bf-179f-42d6-ae87-e6832a10f2a8: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    426ad117-d738-4e08-9150-7ba99fc38f66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 735282d2-30fc-419f-867b-c6b65a95b9a5
+  title:
+    -
+      value: 'Stupendous Date Tricks'
+  created:
+    -
+      value: 1747775921
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/stupendous-date-tricks
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 51b483bf-179f-42d6-ae87-e6832a10f2a8
+  field_description:
+    -
+      value: "<p>Managing dates and times is often complex: recurring events, timezones, daylight savings times, regional formatting conventions, and more. Add in additional presentation requirements like add-to-calendar links, registration links, and related content (like agendas, that change for each date instance) and the complexity can seem bewildering.<br><br>Fortunately Drupal offers a rich toolset for solving these challenges. In this session we'll explore the solutions, not only showing how they work, but also detailing the modules and the configuration needed.<br><br>During the session we'll take a fresh install of Drupal 11 and configure it to meet some advanced use cases, in real time. Along the way we'll use some readily available recipes and contrib modules that you can leverage in your own Drupal site.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 426ad117-d738-4e08-9150-7ba99fc38f66
+  field_short_description:
+    -
+      value: 'Managing dates and times is often complex: recurring events, timezones, daylight savings times, regional formatting conventions, and more. Add in additional presentation requirements like add-to-calendar links, registration links, and related content (like agendas, that change for each date instance) and the complexity can seem bewildering.'
+  field_speakers:
+    -
+      entity: 735282d2-30fc-419f-867b-c6b65a95b9a5

@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: e85a6af4-4c06-4723-99d7-7a73d421f570
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: nicxvan
+  pass:
+    -
+      value: $2y$10$uafMe.U9gveQS3owGYDhZO6iTTTzivZdwsenfhjO6M/fz0MrDHL1i
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: naicxvan@gmail.com
+  timezone:
+    -
+      value: America/Toronto
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747740914
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: naicxvan@gmail.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: nicxvan

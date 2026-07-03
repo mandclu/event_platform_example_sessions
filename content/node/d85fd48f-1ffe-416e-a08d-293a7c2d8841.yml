@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d85fd48f-1ffe-416e-a08d-293a7c2d8841
+  bundle: session
+  default_langcode: en
+  depends:
+    c216e968-9d36-4546-9cce-07430ca7caa6: user
+    5a5b097b-45ac-48df-b267-ccb7fba048ce: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    92438944-849c-45c6-86aa-0a5dbf4a1323: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: c216e968-9d36-4546-9cce-07430ca7caa6
+  title:
+    -
+      value: "Leveraging the best of Drupal to support the world's greatest minds"
+  created:
+    -
+      value: 1747821510
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/leveraging-best-drupal-support-worlds-greatest-minds
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 5a5b097b-45ac-48df-b267-ccb7fba048ce
+  field_description:
+    -
+      value: "<p>In this session, discover how we partnered with the Milken Institute, a global think tank, to transform their Drupal website, improving UX, taxonomy, and delivering highly valuable research to the users who need it most - and fast.&nbsp;<br><br>Learn how user research drove decisions about content priority, cross-linking, categorizing, and hierarchy, and how we used what Drupal does best to power a site that delivers time-sensitive and highly sought-after event recordings and research for end users. We'll also review what we heard from content administrators and how we improved their experience to meet their needs of frequent updates and tight deadlines.<br><br>Key takeaways include best practices for managing complex Drupal architectures, the importance of user research, and lessons learned in refining taxonomy and empowering in-house teams. Whether you're facing similar challenges or want to deepen your Drupal expertise, this session offers practical insights into balancing design, technology, and content strategy.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 92438944-849c-45c6-86aa-0a5dbf4a1323
+  field_short_description:
+    -
+      value: "In this session, discover how we partnered with the Milken Institute, a global think tank, to transform their Drupal website, improving UX, taxonomy, and delivering highly valuable research to the users who need it most - and fast.\_"
+  field_speakers:
+    -
+      entity: c216e968-9d36-4546-9cce-07430ca7caa6

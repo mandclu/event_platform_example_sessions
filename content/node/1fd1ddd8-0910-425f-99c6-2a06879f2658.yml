@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1fd1ddd8-0910-425f-99c6-2a06879f2658
+  bundle: session
+  default_langcode: en
+  depends:
+    340e3a60-df6a-47ac-a371-65439a1c8717: user
+    50eab120-91e8-4266-8698-da478b1d440b: taxonomy_term
+    118ee2e5-d282-4f85-86ea-fe8283c5b1e3: taxonomy_term
+    65d2ff4e-e855-4b2f-8d41-6135e3b97f4e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 340e3a60-df6a-47ac-a371-65439a1c8717
+  title:
+    -
+      value: 'Drupal CMS is da bomb'
+  created:
+    -
+      value: 1747823277
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: /events/2025/sessions/drupal-cms-da-bomb
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 50eab120-91e8-4266-8698-da478b1d440b
+  field_description:
+    -
+      value: "<p>Drupal CMS is killer. Let's talk about why.</p>"
+      format: basic_html
+  field_event:
+    -
+      entity: 118ee2e5-d282-4f85-86ea-fe8283c5b1e3
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 65d2ff4e-e855-4b2f-8d41-6135e3b97f4e
+  field_short_description:
+    -
+      value: "Drupal CMS is killer. Let's talk about why."
+  field_speakers:
+    -
+      entity: 340e3a60-df6a-47ac-a371-65439a1c8717
